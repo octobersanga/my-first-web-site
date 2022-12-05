@@ -1,23 +1,38 @@
-<!DOCTYPE html> <!-- <>안에!는 부정의 의미 <!~>는 태그가 아니다. -->
+<!DOCTYPE html>
 <html>
+
 <head>
-  <title>WEB</title>
-  <meta charset="utf-8">
+  <title> WEB </title>
+  <meta charset=”utf-8”>
+  <script src="master.js"></script>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-<h1><a href="index.html">WEB</a></h1>
-<ol>
-<li><a href="1.html">HTML</a></li> <!--주석달기-->
-<li><a href="2.html">CSS</a></li>
-<li><a href="3.html">JavaScript<a/></li>
-</ol>
+<body style="background-color: white; color: black;">
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
 
-<h2>JavaScript란?</h2>
+  <div id="article">
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+  <h2>JavaScript</h2>
+  <p>
+    JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+  </p>
 
-<img src="javascript.jpg" alt="javascript image" width="100%" height="100%">
+  <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="javascript image" width="20%">
 
-<p><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> is <strong>a high-level, often <u>just-in-time compiled language</u> that conforms to the ECMAScript standard.</strong> It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</p>
-<p style="margin-top:30px">JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.
-Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.</body>
+<p style="margin-top:10px">
+    JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+  </p>
+    <input type="button" value="night" onclick="nightDayHandler(this)">
+</div>
+</div>
+</body>
+
 </html>
