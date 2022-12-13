@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> notion guide </title>
+  <meta charset=”utf-8”>
+  <script src="master.js">
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+  </script>
+  <script>
+   $(document).ready(function(){
+     $('.img').slick({
+  infinite: true,
+  slidesToShow: 1,
+});
+   });
+ </script>
+</head>
+
+<body style="background-color: white; color: black;">
+  <h1><a href="index.html">Notion</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="2.html">기능</a></li>
+      <li><a href="3.html">Download</a></li>
+    </ol>
+
+    <div id="article">
+      <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+      <h2> <a href="https://www.notion.so/ko-kr"><img src="notionlogo.png" alt="notionlogo" width="20%"></a></h2>
+      <p>
+      &nbsp;메모, 문서, 지식 정리, 작업, 프로젝트, 데이터베이스를 하나의 서비스로 통합한 <strong>종합 메모 서비스</strong>이다.
+      </p>
+      <div class="img">
+        <div> <img src="주요기능2.jpg" alt="notionex1" width="20%"></div>
+        <div><img src="예시1.jpg" alt="notionex1" width="20%"></div>
+        <div><img src="예시2.jpg" alt="notionex1" width="20%"></div>
+      </div>
+      <p>
+      <a class="more" href="https://namu.wiki/w/Notion">더 알아보기</a>
+      </p>
+      <input type="button" value="night" onclick="nightDayHandler(this)">
+    </div>
+  </div>
+</body>
+
+</html>
